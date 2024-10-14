@@ -3,7 +3,7 @@
 ## Anyways, whats better than two barrels? FOUR!!
 
 Deploy build pipeline:
-´´´
+´´´js
 npm run deploy
 ´´´
 
