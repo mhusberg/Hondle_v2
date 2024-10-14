@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '/images/HoN_logo.png';
 import heroesData from './heroes.json'
 import HeroSearchBar from './components/HeroSearchBar';
 import PropertiesRow from './components/PropertiesRow';
@@ -85,7 +86,7 @@ const handleInputReset = () => {
     <div className="bg">
       <div className="App">
           <DisplayConfetti run={wonGame}/>
-          <img className="hon-logo" alt="" src="images/HoN_logo.png"></img>
+          <img className="hon-logo" alt="" src={logo}></img>
           <form onSubmit={handleGuessSubmit}>
             <div className="hero-searchbar">
               <HeroSearchBar onSelect={handleGuessChange} value={inputValue} setValue={setInputValue} heroes={remainingHeroes}></HeroSearchBar>
