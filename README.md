@@ -3,9 +3,9 @@
 ## Anyways, whats better than two barrels? FOUR!!
 
 Deploy build pipeline:
-'''
+´´´
 npm run deploy
-'''
+´´´
 
 
 # React + TypeScript + Vite
