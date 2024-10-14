@@ -1,3 +1,8 @@
+# Hondle v2
+### Re-built this with Vite for 10x performance (Also I broke the first one) 
+## Anyways, whats better than two barrels? FOUR!!
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
