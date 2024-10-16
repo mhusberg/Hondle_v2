@@ -1,5 +1,6 @@
 {
   "name": "hondle-v2",
+  "homepage": "https://hondle.org",
   "private": true,
   "version": "0.0.0",
   "type": "module",
