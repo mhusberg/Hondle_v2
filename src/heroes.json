@@ -43,10 +43,10 @@
       "Name": "Night Hound",
       "Gender": "male",
       "Attribute": "agility",
-      "Role": "carry",
+      "Role": "carry solo",
       "Side": "legion",
       "RangeType": "melee",
-      "Complexity": "easy",
+      "Complexity": "medium",
       "ImagePath": "Night_Hound.webp"
     },
     {
@@ -113,7 +113,7 @@
       "Name": "Monkey King",
       "Gender": "male",
       "Attribute": "agility",
-      "Role": "carry midl",
+      "Role": "carry mid",
       "Side": "legion",
       "RangeType": "melee",
       "Complexity": "hard",
@@ -136,7 +136,7 @@
       "Role": "carry mid",
       "Side": "legion",
       "RangeType": "melee",
-      "Complexity": "medium",
+      "Complexity": "hard",
       "ImagePath": "Nomad.webp"
     },
     {
@@ -916,7 +916,7 @@
       "Role": "mid offlane initiator",
       "Side": "hellbourne",
       "RangeType": "melee",
-      "Complexity": "medium",
+      "Complexity": "hard",
       "ImagePath": "Pharaoh.webp"
     },
     {
