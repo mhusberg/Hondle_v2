@@ -85,19 +85,19 @@ const handleInputReset = () => {
   return (
     <div className="bg">
       <div className="App">
-          <DisplayConfetti run={wonGame}/>
-          <img className="hon-logo" alt="" src={logo}></img>
-          <form onSubmit={handleGuessSubmit}>
-            <div className="hero-searchbar">
-              <HeroSearchBar onSelect={handleGuessChange} value={inputValue} setValue={setInputValue} heroes={remainingHeroes}></HeroSearchBar>
-            </div>
-            <Button disabled={wonGame} className="btn my-3" variant="success" type="submit" onClick={handleInputReset}>Guess</Button>
-          </form>
-          <InfoBox guesses={guessHistory.length} finished={wonGame}></InfoBox>
-        <PropertiesHeader></PropertiesHeader>
+        <DisplayConfetti run={wonGame}/>
+        <img className="hon-logo" alt="" src={logo}></img>
+        <form onSubmit={handleGuessSubmit}>
+          <div className="hero-searchbar">
+            <HeroSearchBar onSelect={handleGuessChange} value={inputValue} setValue={setInputValue} heroes={remainingHeroes}></HeroSearchBar>
+          </div>
+          <Button disabled={wonGame} className="btn my-3" variant="success" type="submit" onClick={handleInputReset}>Guess</Button>
+        </form>
+        <InfoBox guesses={guessHistory.length} finished={wonGame}></InfoBox>
+        {guessHistory.length > 0 && <PropertiesHeader></PropertiesHeader>};
         {[...guessHistory].reverse().map((hero, index) => (
           <PropertiesRow key={index} hero={hero} targetHero={targetHero.current}></PropertiesRow>
-        ))}
+        ))};
       </div>
     </div>
   );

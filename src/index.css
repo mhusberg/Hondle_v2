@@ -106,7 +106,8 @@ code {
   border: 2px solid #24d475;
   transition: background-color 0.3s ease;
   width: 84px;
-  margin-right: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .properties-card.success {
@@ -153,23 +154,23 @@ code {
 
 .properties-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 25px;
 }
 
 .properties-header-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  margin-bottom: 25px;
 }
 
 .properties-header-cell {
   color: white;
   background-color: #25282c00;
   width: 84px;
-  margin-right: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
