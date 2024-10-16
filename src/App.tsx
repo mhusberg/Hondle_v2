@@ -95,7 +95,7 @@ const handleInputReset = () => {
           </form>
           <InfoBox guesses={guessHistory.length} finished={wonGame}></InfoBox>
         <PropertiesHeader></PropertiesHeader>
-        {guessHistory.map((hero, index) => (
+        {[...guessHistory].reverse().map((hero, index) => (
           <PropertiesRow key={index} hero={hero} targetHero={targetHero.current}></PropertiesRow>
         ))}
       </div>
