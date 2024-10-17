@@ -10,6 +10,7 @@ const PlaySound: React.FC<PlaySoundProps> = ({ fileName }) => {
 
     useEffect(() => {
         if (audioRef.current) {
+            audioRef.current.volume = 0.1;
             audioRef.current.play();
         }
     },[]);
