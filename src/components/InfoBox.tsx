@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import TimeUntilNextDay from "./TimeUntilNextGame";
 import PlaySound from "./PlaySound";
-import { Hero } from "../App";
 
 import sound1 from "../../public/sounds/winner.wav";
 import sound2 from "../../public/sounds/big_bear.wav";
