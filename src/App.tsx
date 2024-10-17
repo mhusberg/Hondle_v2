@@ -10,6 +10,7 @@ import InfoBox from './components/InfoBox';
 import Button from 'react-bootstrap/Button';
 import DisplayConfetti from './components/Confetti';
 import { getHeroOfTheDay } from './helpers/TimerHashFunction';
+import { getYesterdaysHero } from './helpers/YesterdaysHero';
 
 
 export type Hero = {
@@ -34,8 +35,6 @@ const heroes: Hero[] = heroesData.map((hero) => ({
 }));
 
 
-// Sample list of heroes from Heroes of Newerth
-// const heroess = ['Accursed', 'Aluna', 'Arachna', 'Artillery', 'Balphagore', 'Behemoth', 'Blacksmith', 'Bombardier', 'Bramble', 'Bubbles', 'Cthulhuphant', 'Demented Shaman', 'Devourer', 'Doctor Repulsor', 'Draconis', 'Empath', 'Engineer', 'Fayde', 'Flux', 'Forsaken Archer', 'Gauntlet', 'Geomancer', 'Glacius', 'Gravekeeper', 'Gunblade', 'Hellbringer', 'Keeper of the Forest', 'Kinesis', 'Kraken', 'Lodestone', 'Lord Salforis', 'Magmus', 'Martyr', 'Master of Arms', 'Midas', 'Moon Queen', 'Monarch', 'Moraxus', 'Myrmidon', 'Nighthound', 'Nitro', 'Nomad', 'Oogie', 'Parallax', 'Pandamonium', 'Pebbles', 'Pharaoh', 'Plague Rider', 'Pollywog Priest', 'Predator', 'Puppet Master', 'Pyromancer', 'Rally', 'Ravenor', 'Revenant', 'Rhapsody', 'Sand Wraith', 'Scout', 'Silhouette', 'Sir Benzington', 'Soulstealer', 'Swiftblade', 'Tarot', 'Tempest', 'The Gladiator', 'The Madman', 'Thunderbringer', 'Tremble', 'Tundra', 'Valkyrie', 'Vindicator', 'Voodoo Jester', 'War Beast', 'Wildsoul', 'Witch Slayer', 'Zephyr'];
 
 const App = () => {
   const [guess, setGuess] = useState('');
@@ -47,6 +46,7 @@ const App = () => {
    useEffect(() => {
     targetHero.current = getHeroOfTheDay(new Date(), heroes)
   },[])
+  const yesterdaysHero = getYesterdaysHero(heroes);
 
   const handleGuessChange = (value: string) => {
     const searchTerm = value.trim();
@@ -93,7 +93,7 @@ const handleInputReset = () => {
           </div>
           <Button disabled={wonGame} className="btn my-3" variant="success" type="submit" onClick={handleInputReset}>Guess</Button>
         </form>
-        <InfoBox guesses={guessHistory.length} finished={wonGame}></InfoBox>
+        <InfoBox guesses={guessHistory.length} finished={wonGame} hero={yesterdaysHero}></InfoBox>
         {guessHistory.length > 0 && <PropertiesHeader></PropertiesHeader>};
         {[...guessHistory].reverse().map((hero, index) => (
           <PropertiesRow key={index} hero={hero} targetHero={targetHero.current}></PropertiesRow>

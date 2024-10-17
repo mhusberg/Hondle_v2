@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import TimeUntilNextDay from "./TimeUntilNextGame";
 import PlaySound from "./PlaySound";
+import sound from "../../public/sounds/winner.wav";
+import { Hero } from "../App";
+
 import sound1 from "../../public/sounds/winner.wav";
 import sound2 from "../../public/sounds/big_bear.wav";
 import sound3 from "../../public/sounds/cherry_popper.wav";
@@ -16,10 +19,11 @@ import sound12 from "../../public/sounds/superstar.wav";
 import sound13 from "../../public/sounds/unicorn_stampeede.wav";
 
 
-const InfoBox = ({ guesses, message, finished }:{
+const InfoBox = ({ guesses, message, finished, hero}:{
     guesses?: number;
     message?: string;
     finished?: boolean;
+    hero: Hero;
 
 }) => {
 
@@ -62,6 +66,7 @@ const InfoBox = ({ guesses, message, finished }:{
                     {playSound && <PlaySound fileName={selectedSound ? selectedSound : sound1} />}
                 </>
             )}
+            <p>Yesterday's hero was: <p style={{ color: "#f3e033" }}>{hero.Name}</p> </p>
         </div>
     );
 }
