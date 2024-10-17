@@ -2,11 +2,14 @@ import { useEffect, useState } from "react";
 import TimeUntilNextDay from "./TimeUntilNextGame";
 import PlaySound from "./PlaySound";
 import sound from "../../public/sounds/winner.wav";
+import { Hero } from "../App";
 
-const InfoBox = ({ guesses, message, finished }:{
+
+const InfoBox = ({ guesses, message, finished, hero}:{
     guesses?: number;
     message?: string;
     finished?: boolean;
+    hero: Hero;
 
 }) => {
 
@@ -29,6 +32,7 @@ const InfoBox = ({ guesses, message, finished }:{
                     {playSound && <PlaySound fileName={sound} />}
                 </>
             )}
+            <p>Yesterday's hero was: <p style={{ color: "#f3e033" }}>{hero.Name}</p> </p>
         </div>
     );
 }
