@@ -1,4 +1,4 @@
-import { getHeroOfTheDay } from "../helpers/TimerHashFunction";
+import { getHeroOfTheDay } from "./TimerHashFunction";
 import { Hero } from "../App";
 
 

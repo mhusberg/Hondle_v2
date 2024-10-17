@@ -10,7 +10,7 @@ import InfoBox from './components/InfoBox';
 import Button from 'react-bootstrap/Button';
 import DisplayConfetti from './components/Confetti';
 import { getHeroOfTheDay } from './helpers/TimerHashFunction';
-import { getYesterdaysHero } from './components/YesterdaysHero';
+import { getYesterdaysHero } from './helpers/YesterdaysHero';
 
 
 export type Hero = {
