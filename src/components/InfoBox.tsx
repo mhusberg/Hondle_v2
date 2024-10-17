@@ -18,11 +18,10 @@ import sound12 from "../../public/sounds/superstar.wav";
 import sound13 from "../../public/sounds/unicorn_stampeede.wav";
 
 
-const InfoBox = ({ guesses, message, finished, hero}:{
+const InfoBox = ({ guesses, message, finished }:{
     guesses?: number;
     message?: string;
     finished?: boolean;
-    hero: Hero;
 
 }) => {
 
@@ -65,7 +64,6 @@ const InfoBox = ({ guesses, message, finished, hero}:{
                     {playSound && <PlaySound fileName={selectedSound ? selectedSound : sound1} />}
                 </>
             )}
-            <p>Yesterday's hero was: <p style={{ color: "#f3e033" }}>{hero.Name}</p> </p>
         </div>
     );
 }

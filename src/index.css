@@ -98,7 +98,7 @@ code {
 
 .hon-logo {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .properties-card {
@@ -156,7 +156,7 @@ code {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .properties-header-row {
@@ -181,7 +181,12 @@ code {
   border-radius: 6px;
   margin-right: 25%;
   margin-left: 25%;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+}
+

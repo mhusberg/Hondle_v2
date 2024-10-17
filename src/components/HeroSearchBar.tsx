@@ -5,7 +5,7 @@ import { Hero } from '../App';
 import { getImageURL } from '../helpers/image-util';
 
 
-const HeroSearchBar = ({ onSelect, setValue, value, placeholder = "Search hero...", heroes }:{
+const HeroSearchBar = ({ onSelect, setValue, value, placeholder = "Type a hero name..", heroes }:{
     onSelect: (selectedItem: string) => void;
     setValue: (value: string) => void;
     value: string;
