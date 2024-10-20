@@ -42,10 +42,20 @@ const PropertiesRow = ({hero, targetHero}:{
         complexityClass = "success";
     }
 
+    var speciesClass = "fail";
+    const heroSpecies = hero.Species.split(" ");
+    const targetHeroSpecies = targetHero.Species.split(" ");
+    if (hero.Species === targetHero.Species) {
+        speciesClass = "success";
+    } else if (heroSpecies.some(species => targetHeroSpecies.includes(species))) {
+        speciesClass = "partial";
+    }
+
     return (
         <div className="properties-row">
             <img className="hero-img-row" src={getImageURL(hero.ImagePath)} alt={hero.Name}/>
             <PropertiesCard content={hero.Gender} colorClass={genderClass}></PropertiesCard>
+            <PropertiesCard content={hero.Species} colorClass={speciesClass}></PropertiesCard>
             <PropertiesCard content={hero.Attribute} colorClass={attributeClass}></PropertiesCard>
             <PropertiesCard content={hero.Role} colorClass={roleClass}></PropertiesCard>
             <PropertiesCard content={hero.Side} colorClass={sideClass}></PropertiesCard>

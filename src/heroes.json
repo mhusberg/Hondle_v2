@@ -2,6 +2,7 @@
     {
       "Name": "Andromeda",
       "Gender": "female",
+      "Species": "celestial",
       "Attribute": "agility",
       "Role": "support initiator",
       "Side": "legion",
@@ -12,6 +13,7 @@
     {
       "Name": "Flint Beastwood",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -22,6 +24,7 @@
     {
       "Name": "Engineer",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "support initiator",
       "Side": "legion",
@@ -32,6 +35,7 @@
     {
       "Name": "Moon Queen",
       "Gender": "female",
+      "Species": "bug",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "legion",
@@ -42,6 +46,7 @@
     {
       "Name": "Night Hound",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry solo",
       "Side": "legion",
@@ -52,6 +57,7 @@
     {
       "Name": "Arachna",
       "Gender": "female",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -62,6 +68,7 @@
     {
       "Name": "Blood Hunter",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -72,6 +79,7 @@
     {
       "Name": "Chronos",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "hellbourne",
@@ -82,6 +90,7 @@
     {
       "Name": "Corrupted Disciple",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "hellbourne",
@@ -92,6 +101,7 @@
     {
       "Name": "Dampeer",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -102,6 +112,7 @@
     {
       "Name": "Forsaken Archer",
       "Gender": "female",
+      "Species": "human undead",
       "Attribute": "agility",
       "Role": "carry solo",
       "Side": "hellbourne",
@@ -112,6 +123,7 @@
     {
       "Name": "Monkey King",
       "Gender": "male",
+      "Species": "human beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "legion",
@@ -122,6 +134,7 @@
     {
       "Name": "Emerald Warden",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "legion",
@@ -132,6 +145,7 @@
     {
       "Name": "Nomad",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "legion",
@@ -142,6 +156,7 @@
     {
       "Name": "Scout",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry solo",
       "Side": "legion",
@@ -152,6 +167,7 @@
     {
       "Name": "Silhouette",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry mid solo",
       "Side": "legion",
@@ -162,6 +178,7 @@
     {
       "Name": "Swiftblade",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "legion",
@@ -172,6 +189,7 @@
     {
       "Name": "Valkyrie",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry mid solo",
       "Side": "legion",
@@ -182,6 +200,7 @@
     {
       "Name": "Sand Wraith",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "hellbourne",
@@ -192,6 +211,7 @@
     {
       "Name": "Slither",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "support pusher",
       "Side": "hellbourne",
@@ -202,16 +222,18 @@
     {
       "Name": "Soulstealer",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
       "RangeType": "ranged",
-      "Complexity": "easy",
+      "Complexity": "medium",
       "ImagePath": "Soulstealer.webp"
     },
     {
       "Name": "Wildsoul",
       "Gender": "male",
+      "Species": "human beast",
       "Attribute": "agility",
       "Role": "carry jungle solo",
       "Side": "legion",
@@ -222,6 +244,7 @@
     {
       "Name": "Zephyr",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry jungle",
       "Side": "legion",
@@ -232,6 +255,7 @@
     {
       "Name": "The Dark Lady",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "hellbourne",
@@ -242,6 +266,7 @@
     {
       "Name": "The Madman",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry solo",
       "Side": "hellbourne",
@@ -252,6 +277,7 @@
     {
       "Name": "Tremble",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "agility",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -262,6 +288,7 @@
     {
       "Name": "Aluna",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid support",
       "Side": "legion",
@@ -272,6 +299,7 @@
     {
       "Name": "Blacksmith",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -282,6 +310,7 @@
     {
       "Name": "Bubbles",
       "Gender": "male",
+      "Species": "beast turtle",
       "Attribute": "intelligence",
       "Role": "mid solo initiator",
       "Side": "legion",
@@ -292,6 +321,7 @@
     {
       "Name": "Bombardier",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid",
       "Side": "legion",
@@ -302,6 +332,7 @@
     {
       "Name": "Empath",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -312,6 +343,7 @@
     {
       "Name": "Kinesis",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid support",
       "Side": "legion",
@@ -322,6 +354,7 @@
     {
       "Name": "Martyr",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -332,6 +365,7 @@
     {
       "Name": "Defiler",
       "Gender": "female",
+      "Species": "undead",
       "Attribute": "intelligence",
       "Role": "mid pusher",
       "Side": "hellbourne",
@@ -342,6 +376,7 @@
     {
       "Name": "Demented Shaman",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "hellbourne",
@@ -352,6 +387,7 @@
     {
       "Name": "Doctor Repulsor",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid",
       "Side": "hellbourne",
@@ -362,6 +398,7 @@
     {
       "Name": "Fayde",
       "Gender": "female",
+      "Species": "human undead",
       "Attribute": "intelligence",
       "Role": "mid",
       "Side": "hellbourne",
@@ -372,6 +409,7 @@
     {
       "Name": "Glacius",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "hellbourne",
@@ -382,6 +420,7 @@
     {
       "Name": "Gravekeeper",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "intelligence",
       "Role": "mid pusher",
       "Side": "hellbourne",
@@ -392,6 +431,7 @@
     {
       "Name": "Midas",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "mid solo",
       "Side": "legion",
@@ -402,6 +442,7 @@
     {
       "Name": "Monarch",
       "Gender": "female",
+      "Species": "beast bug",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -412,6 +453,7 @@
     {
       "Name": "Nymphora",
       "Gender": "female",
+      "Species": "elf fairy",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -422,6 +464,7 @@
     {
       "Name": "Ophelia",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support jungler pusher",
       "Side": "legion",
@@ -432,6 +475,7 @@
     {
       "Name": "Pyromancer",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid support",
       "Side": "legion",
@@ -442,6 +486,7 @@
     {
       "Name": "Pollywog Priest",
       "Gender": "male",
+      "Species": "beast frog",
       "Attribute": "intelligence",
       "Role": "mid support pusher",
       "Side": "legion",
@@ -452,6 +497,7 @@
     {
       "Name": "Hellbringer",
       "Gender": "male",
+      "Species": "human demon",
       "Attribute": "intelligence",
       "Role": "support initiator",
       "Side": "hellbourne",
@@ -462,6 +508,7 @@
     {
       "Name": "Myrmidon",
       "Gender": "male",
+      "Species": "meranth",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "hellbourne",
@@ -472,6 +519,7 @@
     {
       "Name": "Parasite",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "intelligence",
       "Role": "jungler",
       "Side": "hellbourne",
@@ -482,6 +530,7 @@
     {
       "Name": "Plague Rider",
       "Gender": "male",
+      "Species": "human undead",
       "Attribute": "intelligence",
       "Role": "support solo",
       "Side": "hellbourne",
@@ -492,6 +541,7 @@
     {
       "Name": "Puppet Master",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "carry mid",
       "Side": "hellbourne",
@@ -502,6 +552,7 @@
     {
       "Name": "Tempest",
       "Gender": "male",
+      "Species": "elemental",
       "Attribute": "intelligence",
       "Role": "jungler initiator",
       "Side": "legion",
@@ -512,6 +563,7 @@
     {
       "Name": "The Chipper",
       "Gender": "male",
+      "Species": "beast squirrel",
       "Attribute": "intelligence",
       "Role": "mid",
       "Side": "legion",
@@ -522,6 +574,7 @@
     {
       "Name": "Thunderbringer",
       "Gender": "male",
+      "Species": "beast monkey",
       "Attribute": "intelligence",
       "Role": "mid",
       "Side": "legion",
@@ -532,6 +585,7 @@
     {
       "Name": "Vindicator",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid support",
       "Side": "legion",
@@ -542,6 +596,7 @@
     {
       "Name": "Witch Slayer",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "legion",
@@ -552,6 +607,7 @@
     {
       "Name": "Soul Reaper",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "intelligence",
       "Role": "mid carry",
       "Side": "hellbourne",
@@ -562,6 +618,7 @@
     {
       "Name": "Succubus",
       "Gender": "female",
+      "Species": "demon",
       "Attribute": "intelligence",
       "Role": "mid support",
       "Side": "hellbourne",
@@ -572,6 +629,7 @@
     {
       "Name": "Torturer",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "intelligence",
       "Role": "mid pusher",
       "Side": "hellbourne",
@@ -582,6 +640,7 @@
     {
       "Name": "Wretched Hag",
       "Gender": "female",
+      "Species": "human",
       "Attribute": "intelligence",
       "Role": "mid solo",
       "Side": "hellbourne",
@@ -592,6 +651,7 @@
     {
       "Name": "Voodoo Jester",
       "Gender": "male",
+      "Species": "other",
       "Attribute": "intelligence",
       "Role": "support",
       "Side": "hellbourne",
@@ -602,6 +662,7 @@
     {
       "Name": "Armadon",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "solo offlane",
       "Side": "legion",
@@ -612,6 +673,7 @@
     {
       "Name": "Behemoth",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "support initiator",
       "Side": "legion",
@@ -622,6 +684,7 @@
     {
       "Name": "Drunken Master",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "carry mid",
       "Side": "legion",
@@ -632,6 +695,7 @@
     {
       "Name": "Flux",
       "Gender": "male",
+      "Species": "other",
       "Attribute": "strength",
       "Role": "mid initiator",
       "Side": "legion",
@@ -642,6 +706,7 @@
     {
       "Name": "Hammerstorm",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "carry support",
       "Side": "legion",
@@ -652,6 +717,7 @@
     {
       "Name": "Jeraziah",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "mid support",
       "Side": "legion",
@@ -662,6 +728,7 @@
     {
       "Name": "Accursed",
       "Gender": "male",
+      "Species": "demon undead",
       "Attribute": "strength",
       "Role": "carry support",
       "Side": "hellbourne",
@@ -672,6 +739,7 @@
     {
       "Name": "Amun-Ra",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "strength",
       "Role": "carry solo jungler",
       "Side": "hellbourne",
@@ -682,6 +750,7 @@
     {
       "Name": "Balphagore",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "strength",
       "Role": "mid solo pusher",
       "Side": "hellbourne",
@@ -692,6 +761,7 @@
     {
       "Name": "Cthulhuphant",
       "Gender": "male",
+      "Species": "meranth",
       "Attribute": "strength",
       "Role": "solo offlane",
       "Side": "hellbourne",
@@ -702,6 +772,7 @@
     {
       "Name": "Deadwood",
       "Gender": "male",
+      "Species": "undead",
       "Attribute": "strength",
       "Role": "mid",
       "Side": "hellbourne",
@@ -712,6 +783,7 @@
     {
       "Name": "Devourer",
       "Gender": "male",
+      "Species": "humman undead",
       "Attribute": "strength",
       "Role": "mid",
       "Side": "hellbourne",
@@ -722,6 +794,7 @@
     {
       "Name": "Keeper of the Forest",
       "Gender": "male",
+      "Species": "other",
       "Attribute": "strength",
       "Role": "jungler pusher",
       "Side": "legion",
@@ -732,6 +805,7 @@
     {
       "Name": "Legionnaire",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "jungler initiator",
       "Side": "legion",
@@ -742,6 +816,7 @@
     {
       "Name": "Magebane",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "agility",
       "Role": "carry",
       "Side": "legion",
@@ -752,6 +827,7 @@
     {
       "Name": "Pandamonium",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "mid carry",
       "Side": "legion",
@@ -762,6 +838,7 @@
     {
       "Name": "Pebbles",
       "Gender": "male",
+      "Species": "elemental",
       "Attribute": "strength",
       "Role": "mid",
       "Side": "legion",
@@ -772,6 +849,7 @@
     {
       "Name": "Predator",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "carry",
       "Side": "legion",
@@ -782,6 +860,7 @@
     {
       "Name": "Rampage",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "offlane",
       "Side": "legion",
@@ -792,6 +871,7 @@
     {
       "Name": "Electrician",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "mid offlane",
       "Side": "hellbourne",
@@ -802,6 +882,7 @@
     {
       "Name": "Gauntlet",
       "Gender": "male",
+      "Species": "ogre",
       "Attribute": "strength",
       "Role": "mid offlane",
       "Side": "hellbourne",
@@ -812,6 +893,7 @@
     {
       "Name": "Kraken",
       "Gender": "male",
+      "Species": "meranth",
       "Attribute": "strength",
       "Role": "mid offlane initiator",
       "Side": "hellbourne",
@@ -822,6 +904,7 @@
     {
       "Name": "Lord Salforis",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "strength",
       "Role": "mid offlane",
       "Side": "hellbourne",
@@ -832,6 +915,7 @@
     {
       "Name": "Magmus",
       "Gender": "male",
+      "Species": "elemental",
       "Attribute": "strength",
       "Role": "mid offlane initiator",
       "Side": "hellbourne",
@@ -842,6 +926,7 @@
     {
       "Name": "Salomon",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "strength",
       "Role": "carry jungle",
       "Side": "legion",
@@ -852,6 +937,7 @@
     {
       "Name": "Solstice",
       "Gender": "female",
+      "Species": "other",
       "Attribute": "strength",
       "Role": "jungle",
       "Side": "legion",
@@ -862,6 +948,7 @@
     {
       "Name": "Tundra",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "mid offlane",
       "Side": "legion",
@@ -872,6 +959,7 @@
     {
       "Name": "The Gladiator",
       "Gender": "male",
+      "Species": "human",
       "Attribute": "strength",
       "Role": "mid",
       "Side": "legion",
@@ -882,6 +970,7 @@
     {
       "Name": "Maliken",
       "Gender": "male",
+      "Species": "human demon",
       "Attribute": "strength",
       "Role": "carry",
       "Side": "hellbourne",
@@ -892,6 +981,7 @@
     {
       "Name": "Moraxus",
       "Gender": "male",
+      "Species": "demon",
       "Attribute": "strength",
       "Role": "offlane initiator",
       "Side": "hellbourne",
@@ -902,6 +992,7 @@
     {
       "Name": "Pestilence",
       "Gender": "male",
+      "Species": "beast bug",
       "Attribute": "strength",
       "Role": "offlane initiator",
       "Side": "hellbourne",
@@ -912,6 +1003,7 @@
     {
       "Name": "Pharaoh",
       "Gender": "male",
+      "Species": "human undead",
       "Attribute": "strength",
       "Role": "mid offlane initiator",
       "Side": "hellbourne",
@@ -922,6 +1014,7 @@
     {
       "Name": "War Beast",
       "Gender": "male",
+      "Species": "beast",
       "Attribute": "strength",
       "Role": "jungle",
       "Side": "hellbourne",

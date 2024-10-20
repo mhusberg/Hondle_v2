@@ -16,6 +16,7 @@ import { getYesterdaysHero } from './helpers/YesterdaysHero';
 export type Hero = {
   Name: string,
   Gender: string,
+  Species: string,
   Attribute: string,
   Role: string,
   Side: string,
@@ -27,6 +28,7 @@ export type Hero = {
 const heroes: Hero[] = heroesData.map((hero) => ({
   ...hero,
   Gender: hero.Gender as Hero['Gender'],
+  Species: hero.Species as Hero['Species'],
   Attribute: hero.Attribute as Hero['Attribute'], // Asserting the correct type for Attribute
   Role: hero.Role as Hero['Role'], // Asserting the correct type for Role
   Side: hero.Side as Hero['Side'], // Asserting the correct type for Side

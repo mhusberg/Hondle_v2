@@ -38,8 +38,8 @@ code {
 }
 
 .hero-img-row {
-  height: 84px;
-  width: 84px;
+  height: 70px;
+  width: 70px;
   margin-right: 2px;
 }
 
@@ -105,7 +105,7 @@ code {
   background: #00e46999;
   border: 2px solid #24d475;
   transition: background-color 0.3s ease;
-  width: 84px;
+  width: 70px;
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -150,6 +150,8 @@ code {
   cursor: default;
   text-shadow: 0 0 3px #000;
   box-shadow: inset 0 0 6px rgba(0,0,0,.4392156862745098);
+  font-size: small;
+  font-weight: normal;
 }
 
 .properties-row {
@@ -168,10 +170,13 @@ code {
 .properties-header-cell {
   color: white;
   background-color: #25282c00;
-  width: 84px;
+  width: 70px;
   margin-left: 2px;
   margin-right: 2px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .info-box {
