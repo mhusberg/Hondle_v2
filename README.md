@@ -2,6 +2,11 @@
 ### Re-built this with Vite for 10x performance (Also I broke the first one) 
 ## Anyways, whats better than two barrels? FOUR!!
 
+Run locally:
+```js
+npm run dev
+```
+
 Deploy build pipeline:
 ```js
 npm run deploy
