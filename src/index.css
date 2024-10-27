@@ -95,6 +95,22 @@ code {
   background-color: #31363b; 
   color: #ffffff; 
 }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #31363b;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #6c757d;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #5a6268;
+}
 
 .hon-logo {
   margin-top: 10px;

@@ -41,7 +41,7 @@ const HeroSearchBar = ({ onSelect, setValue, value, placeholder = "Type a hero's
             style={{ borderColor: "#343a40" }}
         />
         <Dropdown show={filteredHeroList.length > 0 && filteredHeroList.length !== heroes.length && showDropdown}>
-            <Dropdown.Menu className="bg-dark" style={{width: "100%"}}>
+            <Dropdown.Menu className="bg-dark custom-scrollbar" style={{ width: "100%", maxHeight: "450px", overflowY: "auto" }}>
                 {filteredHeroList.map((hero, index) => (
                     <div key={index} className="custom-dropdown-item">
                         <Dropdown.Item className="custom-dropdown-item text-white" key={index} eventKey={hero.Name} onClick={() => handleItemClick(hero.Name)}>
