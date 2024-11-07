@@ -160,7 +160,7 @@
         "Attribute": "strength",
         "Role": "offlane initiator",
         "Side": "legion",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "easy",
         "ImagePath": "Bramble.webp"
     },
@@ -413,7 +413,7 @@
         "Attribute": "agility",
         "Role": "carry",
         "Side": "hellbourne",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "hard",
         "ImagePath": "Gemini.webp"
     },
@@ -875,7 +875,7 @@
         "Attribute": "strength",
         "Role": "mid offlane initiator",
         "Side": "legion",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "medium",
         "ImagePath": "Prisoner_945.webp"
     },
@@ -919,7 +919,7 @@
         "Attribute": "strength",
         "Role": "offlane initiator",
         "Side": "legion",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "medium",
         "ImagePath": "Rally.webp"
     },
@@ -974,7 +974,7 @@
         "Attribute": "agility",
         "Role": "mid",
         "Side": "hellbourne",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "easy",
         "ImagePath": "Riptide.webp"
     },
@@ -1029,7 +1029,7 @@
         "Attribute": "strength",
         "Role": "support initiator",
         "Side": "legion",
-        "RangeType": "meele",
+        "RangeType": "melee",
         "Complexity": "easy",
         "ImagePath": "Shellshock.webp"
     },
