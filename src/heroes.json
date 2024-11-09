@@ -266,7 +266,7 @@
     {
         "Name": "Devourer",
         "Gender": "male",
-        "Species": "humman undead",
+        "Species": "human undead",
         "Attribute": "strength",
         "Role": "mid",
         "Side": "hellbourne",
