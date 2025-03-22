@@ -1,6 +1,6 @@
 import PropertiesCard from '../components/PropertiesCard';
 import { Hero } from '../App';
-import { getImageURL } from '../helpers/image-util';
+import { getHeroIconURL } from '../helpers/image-util';
 
 
 const PropertiesRow = ({hero, targetHero}:{
@@ -53,7 +53,7 @@ const PropertiesRow = ({hero, targetHero}:{
 
     return (
         <div className="properties-row">
-            <img className="hero-img-row" src={getImageURL(hero.ImagePath)} alt={hero.Name}/>
+            <img className="hero-img-row" src={getHeroIconURL(hero.ImagePath)} alt={hero.Name}/>
             <PropertiesCard content={hero.Gender} colorClass={genderClass}></PropertiesCard>
             <PropertiesCard content={hero.Species} colorClass={speciesClass}></PropertiesCard>
             <PropertiesCard content={hero.Attribute} colorClass={attributeClass}></PropertiesCard>
