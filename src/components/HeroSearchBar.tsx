@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 import { Hero } from '../App';
-import { getImageURL } from '../helpers/image-util';
+import { getHeroIconURL } from '../helpers/image-util';
 
 
 const HeroSearchBar = ({ onSelect, setValue, value, placeholder = "Type a hero's name..", heroes }:{
@@ -45,7 +45,7 @@ const HeroSearchBar = ({ onSelect, setValue, value, placeholder = "Type a hero's
                 {filteredHeroList.map((hero, index) => (
                     <div key={index} className="custom-dropdown-item">
                         <Dropdown.Item className="custom-dropdown-item text-white" key={index} eventKey={hero.Name} onClick={() => handleItemClick(hero.Name)}>
-                            <img src={getImageURL(hero.ImagePath)} alt={hero.Name} className="hero-img-search"/>
+                            <img src={getHeroIconURL(hero.ImagePath)} alt={hero.Name} className="hero-img-search"/>
                             {hero.Name}
                         </Dropdown.Item>
                     </div>

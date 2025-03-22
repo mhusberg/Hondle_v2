@@ -13,6 +13,19 @@ code {
     monospace;
 }
 
+.codex-icon {
+  border-radius: 3px;
+  height: 50px;
+  width: 50px;
+  transition: transform .2s;
+  margin-right: 10px;
+}
+
+.codex-icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 #history {
   display: flex;
   flex-direction: column;
@@ -195,7 +208,7 @@ code {
   margin-bottom: 10px;
 }
 
-.info-box {
+.winner-box {
   justify-content: center;
   color: white;
   background-color: #212529d1;
@@ -205,6 +218,55 @@ code {
   padding-top: 20px;
   padding-bottom: 5px;
   margin-bottom: 15px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  backdrop-filter: blur(5px); /* Blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.info-box {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 460px;
+  height: 460px;
+  background: #212529f7;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+.info-box-header {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  height: 55px;
+  background: linear-gradient(90deg, #ff5a00, #212529f7)
+}
+
+.info-box-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.x-button {
+  padding-top: 5px;
+  position: absolute;
+  right: 5px;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

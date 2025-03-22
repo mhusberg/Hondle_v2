@@ -7,10 +7,13 @@ import HeroSearchBar from './components/HeroSearchBar';
 import PropertiesRow from './components/PropertiesRow';
 import PropertiesHeader from './components/PropertiesHeader';
 import InfoBox from './components/InfoBox';
+import HowToBox from './components/HowToBox';
+import WinnerBox from './components/WinnerBox';
 import Button from 'react-bootstrap/Button';
 import DisplayConfetti from './components/Confetti';
 import { getHeroOfTheDay } from './helpers/TimerHashFunction';
 import { getYesterdaysHero } from './helpers/YesterdaysHero';
+import { getIconURL } from './helpers/image-util';
 
 
 export type Hero = {
@@ -44,6 +47,8 @@ const App = () => {
   const [remainingHeroes, setGuessedHistoryList] = useState<Hero[]>(heroes);
   const [inputValue, setInputValue] = useState("");
   const [wonGame, setWonGame] = useState<boolean>(false);
+  const [showInfo, setShowInfo] = useState<boolean>(false);
+  const [showHowTo, setShowHowTo] = useState<boolean>(false);
   const targetHero = useRef({} as Hero);
    useEffect(() => {
     targetHero.current = getHeroOfTheDay(new Date(), heroes)
@@ -95,12 +100,17 @@ const handleInputReset = () => {
           </div>
           <Button disabled={wonGame} className="btn my-3" variant="success" type="submit" onClick={handleInputReset}>Guess</Button>
         </form>
-        {wonGame && (<InfoBox guesses={guessHistory.length} finished={wonGame}></InfoBox>)}
+        {wonGame && (<WinnerBox guesses={guessHistory.length} finished={wonGame}></WinnerBox>)}
         {guessHistory.length > 0 && <PropertiesHeader></PropertiesHeader>}
         {[...guessHistory].reverse().map((hero, index) => (
           <PropertiesRow key={index} hero={hero} targetHero={targetHero.current}></PropertiesRow>
         ))}
-        <p style={{ color: "white" }}> Yesterday's hero: <a style={{ color: "#f3e033" }}>{yesterdaysHero.Name}</a></p>
+        <p style={{ color: "white" }}> Yesterday's hero: <b><a style={{ color: "#f3e033" }}>{yesterdaysHero.Name}</a></b></p>
+        <br />
+        <img src={getIconURL("Codex.webp")} alt="Codex" className="codex-icon" title="About" onClick={() => setShowInfo(true)} />
+        <img src={getIconURL("Shop.webp")} alt="Codex" className="codex-icon" title="How to play" onClick={() => setShowHowTo(true)} />
+        {showInfo && <InfoBox onClose={() => setShowInfo(false)}></InfoBox>}
+        {showHowTo && <HowToBox onClose={() => setShowHowTo(false)}></HowToBox>}
       </div>
     </div>
   );

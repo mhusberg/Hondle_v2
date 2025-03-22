@@ -1,7 +1,7 @@
 import { CloseButton } from "react-bootstrap";
 
 
-const InfoBox = ({ onClose }:{
+const HowToBox = ({ onClose }:{
     onClose: () => void;
 
 }) => {
@@ -12,7 +12,7 @@ const InfoBox = ({ onClose }:{
                     <CloseButton variant="white" onClick={onClose}></CloseButton>
                 </div>
                 <div className="info-box-header">
-                    <h3>About</h3>
+                    <h3>How to play</h3>
                 </div>
                 <div className="info-box-content">
                     <p>Inspired by the popular wordle game <a href="https://dotadle.net/">Dotadle.</a></p>
@@ -30,4 +30,4 @@ const InfoBox = ({ onClose }:{
     );
 };
 
-export default InfoBox;
+export default HowToBox;
